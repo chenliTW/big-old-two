@@ -4,7 +4,7 @@
 首先，建一個叫card的資料庫．
          
  In database "card"
- 
+                                 
          ---  member  ---  id [int](turn on auto increasement)
          |            |
          |            |
@@ -25,3 +25,9 @@
                       |
                       |
                       ---  user [varchar size=255]
+
+
+然後在table "member" 加入(column)莊家 id=1 (可以洗牌)，並設定帳號and密碼(md5)
+在table "member" 加入(column)玩家 id=2 (可以洗牌)，並設定帳號and密碼(md5)
+在table "card" 加入(column) id=1 id=2 (card欄位留空)
+在table "desk" 加入id=1 id=2 id=3 id=4 id=5 (cardㄝ,user欄位留空)
